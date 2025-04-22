@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/gerar-pdf.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/gerar-pdf", "dest": "/api/gerar-pdf.js" }
+  ]
+}
